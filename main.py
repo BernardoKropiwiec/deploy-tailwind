@@ -5,7 +5,7 @@ from classificador import classificar
 import base64
 
 app = Flask(__name__)
-app.config['TESTING'] = True
+application = app
 
 # Lista global para armazenar o histórico das imagens classificadas
 historico_imagens = []
